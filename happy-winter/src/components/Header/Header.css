@@ -2,14 +2,34 @@ header {
   height: var(--header-height);
   width: 100vw;
   box-shadow: var(--bs-box-shadow);
-  padding: 20px 100px;
+  padding: 10px 100px;
   font-family: "Alex Brush", cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1 {
+header nav{
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+header h1 {
   font-size: 2rem;
   font-weight: normal;
   display: flex;
   flex-direction: column;
   width: min-content;
 }
+
+header a{
+    text-decoration: none;
+}
+

@@ -1,5 +1,5 @@
-:root{
-  --header-height: 135px
+:root {
+  --header-height: 115px;
 }
 
 * {
@@ -8,7 +8,13 @@
   box-sizing: border-box;
 }
 
-h1{
+h1 {
   all: unset;
   font-weight: bolder;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

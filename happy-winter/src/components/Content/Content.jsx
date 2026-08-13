@@ -1,7 +1,7 @@
 import "./Content.css";
 import { FaHands } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
-import { CgCap } from "react-icons/cg";
+import { GiWinterHat } from "react-icons/gi";
 
 export function Content() {
   return (
@@ -26,7 +26,7 @@ export function Content() {
           </li>
 
           <li>
-            <CgCap />
+            <GiWinterHat />
             <span>Conforto que abraça</span>
           </li>
         </ul>

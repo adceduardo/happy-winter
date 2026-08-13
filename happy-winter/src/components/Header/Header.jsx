@@ -7,11 +7,13 @@ export function Header() {
         <span>Happy</span>
         <span>Winter</span>
       </h1>
-      <ul>
-        <li><a href="">Início</a></li>
-        <li><a href="">Produtos</a></li>
-        <li><a href="">Contato</a></li>
-      </ul>
+      <nav>
+        <ul>
+          <li><a href="">Início</a></li>
+          <li><a href="">Produtos</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </nav>
     </header>
   );
 }
