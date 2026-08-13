@@ -1,5 +1,5 @@
 section{
-    padding: 20px 100px;
+    padding: 20px 5vw;
     height: calc(100dvh - var(--header-height));
     display: flex;
     align-items: center;
