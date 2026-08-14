@@ -30,5 +30,22 @@ header h1 {
 
 header a{
     text-decoration: none;
+    color: var(--bs-primary-text-emphasis);
+    font-weight: bold;
 }
 
+header a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 12px;
+  color: var(--color-secondary-text);
+  
+}
+
+header nav li{
+   transition: transfrom 0.4s ease;
+}
+
+header nav li:hover{
+  transform: scale(1.03)
+}

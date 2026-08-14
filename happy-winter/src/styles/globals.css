@@ -1,21 +1,35 @@
 :root {
   --header-height: 115px;
-  --color-primary: #456783;
+  /* --color-primary: #456783;
   --color-secondary: #a5d1ec;
-  --background: #ffffff;
+  --light-background: #ffffff;
 
-  --surface: #f5fafd;
 
-  --text: #263746;
-  --text-secondary: #5f7180;
 
   --primary-hover: #38566e;
+
+  --text-color-primary: #194664;
+  --text-color-secondary: #195583;
+  --text-color-secondary-light: #1964a2; */
+
+  --color-primary: #194664;
+  --color-secondary: #a31621;
+  --color-secondary-text: #58151c;
+  --color-light-100: #b0d7ff;
+  --color-light-200: #b0d7ff;
+  --color-dark: #182825;
+  --ornament-color: #afa98d;
+  --surface: #f5fafd;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-size: 1.4rem;
 }
 
 h1 {
