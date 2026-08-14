@@ -1,5 +1,15 @@
 :root {
   --header-height: 115px;
+  --color-primary: #456783;
+  --color-secondary: #a5d1ec;
+  --background: #ffffff;
+
+  --surface: #f5fafd;
+
+  --text: #263746;
+  --text-secondary: #5f7180;
+
+  --primary-hover: #38566e;
 }
 
 * {
