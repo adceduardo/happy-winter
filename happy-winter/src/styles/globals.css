@@ -30,6 +30,7 @@
 
 body{
   font-size: 1.4rem;
+  overflow: hidden;
 }
 
 h1 {

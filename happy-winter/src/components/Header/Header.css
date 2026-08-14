@@ -45,7 +45,3 @@ header a:hover{
 header nav li{
    transition: transfrom 0.4s ease;
 }
-
-header nav li:hover{
-  transform: scale(1.03)
-}
