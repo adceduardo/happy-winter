@@ -1,5 +1,5 @@
-section {
-  padding: 4px 5vw;
+.presentation-section {
+  padding: var(--oadding-lg);
   height: calc(100dvh - var(--header-height));
   display: flex;
   align-items: center;
@@ -8,14 +8,10 @@ section {
 }
 
 section h1 {
-  font-size: 5rem;
+  font-size: clamp(2rem, 3.5vw, 5rem);
   font-weight: bolder;
   color: var(--color-primary);
   letter-spacing: 3px;
-}
-
-section h2 {
-  font-size: 2.5rem;
 }
 
 .presentation-section .presentation-main {
@@ -27,6 +23,7 @@ section h2 {
   position: relative;
   flex: 1;
   z-index: 5;
+  caret-color: transparent;
 }
 
 .background-container {
@@ -47,7 +44,7 @@ section h2 {
   align-items: center;
   z-index: 6;
   width: 100vw;
-  padding: 0 100px;
+  padding: var(--padding-lg);
   height: 100%;
 }
 
@@ -67,7 +64,7 @@ section h2 {
   background-color: #f5fafd47;
   border-radius: 8px;
   display: flex;
-  gap: 32px;
+  gap: 16px;
   animation: content-information 1s ease;
 }
 
@@ -81,8 +78,8 @@ section h2 {
 }
 
 section img {
-  max-height: 300px;
-  max-width: 300px;
+  height: auto;
+  width: clamp(200px, 18vw, 300px);
 }
 
 .content-information-body div {
@@ -97,6 +94,43 @@ section img {
 .content-information p {
   color: var(--color-secondary-text);
   font-weight: bold;
+}
+
+.contact-button {
+  position: absolute;
+  bottom: 8px;
+  right: 32px;
+  background: var(--color-secondary-text);
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid var(--color-secondary-text);
+  transition: linear 0.4s;
+}
+
+.contact-button button {
+  all: unset;
+  cursor: pointer;
+  color: #fff;
+}
+
+.contact-button svg {
+  color: #fff;
+}
+
+.contact-button:hover{
+ background-color: #f1f1f1;
+}
+
+.contact-button:hover button{
+  color: var(--color-secondary-text);
+}
+
+.contact-button:hover svg{
+  color: var(--color-secondary-text);
 }
 
 .presentation-footer {
@@ -169,7 +203,17 @@ section img {
 }
 
 .presentation-footer svg {
-  height: 28px;
-  width: 28px;
   color: var(--color-light-200);
+}
+
+@media (max-width: 1440px) {
+  .presentation-main .content {
+    padding: var(--padding-md);
+  }
+}
+
+@media (max-width: 768px) {
+  .content-information {
+    background: #f5fafdad;
+  }
 }

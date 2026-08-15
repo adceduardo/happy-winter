@@ -1,16 +1,6 @@
 :root {
   --header-height: 115px;
-  /* --color-primary: #456783;
-  --color-secondary: #a5d1ec;
-  --light-background: #ffffff;
-
-
-
-  --primary-hover: #38566e;
-
-  --text-color-primary: #194664;
-  --text-color-secondary: #195583;
-  --text-color-secondary-light: #1964a2; */
+  font-size: 16px;
 
   --color-primary: #194664;
   --color-secondary: #a31621;
@@ -20,6 +10,9 @@
   --color-dark: #182825;
   --ornament-color: #afa98d;
   --surface: #f5fafd;
+
+  --padding-lg: 0 100px;
+  --padding-md: 0 50px;
 }
 
 * {
@@ -29,7 +22,6 @@
 }
 
 body{
-  font-size: 1.4rem;
   overflow-x: hidden;
 }
 

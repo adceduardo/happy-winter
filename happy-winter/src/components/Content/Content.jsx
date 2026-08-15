@@ -1,46 +1,52 @@
 import "./Content.css";
-import { FaHands } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
-import { GiWinterHat } from "react-icons/gi";
+import { FaRegSnowflake } from "react-icons/fa";
+import { FaSnowman } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Content() {
   return (
-    <section className="presentation-section">
-      <article className="presentation-main">
-        <div className="background-container"></div>
-        <div className="content">
-          <div className="content-information">
-            
-            <img src="logo.png"></img>
-            <div className="content-information-body">
-              <h1>Happy Winter </h1>
-              <div>
-                <h2>Artigos de Inverno</h2>
-                <p> Aqueça seus dias com estilo, conforto e muito carinho</p>
+    <>
+      <section className="presentation-section">
+        <article className="presentation-main">
+          <div className="background-container"></div>
+          <div className="content">
+            <div className="content-information">
+              <img src="logo.png"></img>
+              <div className="content-information-body">
+                <h1>Happy Winter </h1>
+                <div>
+                  <h2>Artigos de Inverno</h2>
+                  <p> Aqueça seus dias com estilo, conforto e muito carinho</p>
+                </div>
+              </div>
+              <div className="contact-button">
+                <FaWhatsapp size={28} />
+                <button>Fale conosco</button>
               </div>
             </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <article className="presentation-footer">
-        <ul>
-          <li>
-            <FaHands />
-            <span>Feito à mão</span>
-          </li>
+        <article className="presentation-footer">
+          <ul>
+            <li>
+              <FaRegSnowflake size={28} />
+              <span>Feito à mão</span>
+            </li>
 
-          <li>
-            <FaHeart />
-            <span>Feito com amor</span>
-          </li>
+            <li>
+              <FaHeart size={28} />
+              <span>Feito com amor</span>
+            </li>
 
-          <li>
-            <GiWinterHat />
-            <span>Conforto que abraça</span>
-          </li>
-        </ul>
-      </article>
-    </section>
+            <li>
+              <FaSnowman size={30} />
+              <span>Conforto que abraça</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </>
   );
 }

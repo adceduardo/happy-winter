@@ -2,7 +2,7 @@ header {
   height: var(--header-height);
   width: 100vw;
   box-shadow: 2px 0px 8px 1px #4a708d;
-  padding: 10px 100px;
+  padding: var(--padding-lg);
   font-family: "Alex Brush", cursive;
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@ header nav ul{
 }
 
 header h1 {
-  font-size: 2rem;
+  font-size: clamp(1rem, 2vw, 2rem);
   font-weight: normal;
   display: flex;
   flex-direction: column;
@@ -44,4 +44,11 @@ header a:hover{
 
 header nav li{
    transition: transfrom 0.4s ease;
+}
+
+
+@media(max-width: 1440px){
+  header {
+    padding: var(--padding-md);
+  }
 }
