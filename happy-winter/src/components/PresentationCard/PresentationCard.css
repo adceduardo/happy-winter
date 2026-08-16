@@ -1,11 +1,20 @@
+.section-show .content-information {
+  opacity: 1;
+  animation: slideFromLeft 1s ease;
+}
+
+.section-hide .content-information {
+  opacity: 0;
+}
+
 .content-information {
   padding: 20px 32px;
   background: #f5fafd70;
   border-radius: 8px;
   display: flex;
   gap: 16px;
-  animation: slideFromLeft 1s ease;
   position: relative;
+  transition: opacity 0.5s;
 
   .content-information-body {
     display: flex;

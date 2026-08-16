@@ -1,7 +1,16 @@
-.content-information-mobile {
+.section-show .content-information-mobile {
+  opacity: 1;
   animation: slideFromLeft 1s ease;
+}
+
+.section-hide .content-information-mobile {
+  opacity: 0;
+}
+
+.content-information-mobile {
   height: 100%;
   background: #f5fafd2d;
+  transition: opacity 0.5s;
 
   .contact-button {
     top: calc(100% + 12px);
