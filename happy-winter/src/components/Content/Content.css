@@ -29,7 +29,7 @@
 
 .background-container {
   content: "";
-  background: url("hero-background.png") right center / cover no-repeat;
+  background: url("/hero-background.png") right center / cover no-repeat;
   width: 100vw;
   height: 100%;
   position: absolute;
