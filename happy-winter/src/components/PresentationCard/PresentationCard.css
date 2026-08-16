@@ -30,7 +30,7 @@
 .presentation-section {
   h2 {
     color: var(--color-primary);
-    font-weight: bold;
+    font-weight: bolder;
   }
 
   p {

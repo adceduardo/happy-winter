@@ -59,6 +59,10 @@ header nav li {
 }
 
 @media (max-width: 576px) {
+  :root {
+    --header-height: 88px;
+  }
+
   header nav {
     position: absolute;
     top: 100%;
