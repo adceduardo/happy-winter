@@ -1,0 +1,49 @@
+.content-information-mobile {
+  animation: slideFromLeft 1s ease;
+  height: 100%;
+  background: #f5fafd2d;
+
+  .contact-button {
+    top: calc(100% + 12px);
+    left: 0;
+  }
+
+  .content-information-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.information-header {
+  padding: 20px 16px;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(1px);
+  background: linear-gradient(#fff, transparent);
+  margin-top: 8px;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+}
+
+.information-container {
+  position: relative;
+  display: flex;
+  background: #f5fafdad;
+  border-radius: 8px;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 16px;
+  margin: 0 16px;
+}
+
+.content-information-mobile img {
+  height: 150px;
+  width: 150px;
+}
