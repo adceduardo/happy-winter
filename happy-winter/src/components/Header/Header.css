@@ -39,7 +39,7 @@ header a:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 12px;
-  color: var(--color-secondary-text);
+  color: var(--color-secondary);
 }
 
 header nav li {

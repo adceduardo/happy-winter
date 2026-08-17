@@ -5,6 +5,7 @@ import { FaSnowman } from "react-icons/fa6";
 import { PresentationCard } from "../PresentationCard/PresentationCard";
 import { PresentationCardMobile } from "../PresentationCardMobile/PresentationCardMobile";
 import { useEffect, useRef } from "react";
+import { ProductSection } from "../ProductSection/ProductSection";
 
 export function Content({ isMobile }) {
   const presentation = useRef();
@@ -18,11 +19,9 @@ export function Content({ isMobile }) {
           if (entry.isIntersecting) {
             entry.target.classList.remove("section-hide");
             entry.target.classList.add("section-show");
-          }
-
-          else{
+          } else {
             entry.target.classList.remove("section-show");
-             entry.target.classList.add("section-hide");
+            entry.target.classList.add("section-hide");
           }
         });
       },
@@ -64,7 +63,8 @@ export function Content({ isMobile }) {
           </ul>
         </article>
       </section>
-      <section ref={product} className="product-section"></section>
+
+      <ProductSection nameRef={product} />
     </>
   );
 }

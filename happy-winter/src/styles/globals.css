@@ -1,15 +1,15 @@
 :root {
-  --header-height: 116px;
   font-size: 16px;
+  --header-height: 116px;
 
   --color-primary: #194664;
-  --color-secondary: #a31621;
-  --color-secondary-text: #58151c;
-  --color-light-100: #b0d7ff;
-  --color-light-200: #b0d7ff;
+  --color-secondary: #58151c;
+  --color-secondary-text: #a31621;
+  --color-light: #b0d7ff;
   --color-dark: #182825;
-  --ornament-color: #afa98d;
-  --surface: #f5fafd;
+  --color-ornament: #afa98d;
+  --color-sand: #e0dad6;
+  --color-surface: #f5fafd;
 
   --padding-lg: 0 100px;
   --padding-md: 0 50px;

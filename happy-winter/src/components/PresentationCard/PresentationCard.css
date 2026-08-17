@@ -43,21 +43,21 @@
   }
 
   p {
-    color: var(--color-secondary-text);
+    color: var(--color-secondary);
     font-weight: bold;
   }
 }
 
 .contact-button {
   position: absolute;
-  background: var(--color-secondary-text);
+  background: var(--color-secondary);
   padding: 8px 16px;
   border-radius: 8px;
   display: flex;
   gap: 8px;
   cursor: pointer;
   font-weight: bold;
-  border: 1px solid var(--color-secondary-text);
+  border: 1px solid var(--color-secondary);
   transition: linear 0.4s;
 }
 
@@ -76,11 +76,11 @@
 }
 
 .contact-button:hover button {
-  color: var(--color-secondary-text);
+  color: var(--color-secondary);
 }
 
 .contact-button:hover svg {
-  color: var(--color-secondary-text);
+  color: var(--color-secondary);
 }
 
 @media (max-width: 768px) {
