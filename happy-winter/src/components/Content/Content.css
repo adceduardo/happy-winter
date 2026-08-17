@@ -1,5 +1,4 @@
 .presentation-section {
-  padding: var(--padding-lg);
   height: calc(100dvh - var(--header-height));
   display: flex;
   align-items: center;
@@ -17,7 +16,7 @@
 
 .presentation-section .presentation-main {
   display: flex;
-  width: 100vw;
+  width: 100%;
   flex-direction: column;
   gap: 32px;
   align-items: center;
@@ -30,7 +29,7 @@
 .background-container {
   content: "";
   background: url("/hero-background.png") right center / cover no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -44,8 +43,8 @@
   gap: 32px;
   align-items: center;
   z-index: 6;
-  width: 100vw;
-  padding: var(--padding-lg);
+  width: 100%;
+  padding: var(--slide-border-padding);
   height: 100%;
 }
 
@@ -53,12 +52,13 @@
   align-items: start;
 }
 
-.content-information img, .content-information-mobile img{
+.content-information img,
+.content-information-mobile img {
   transition: transform 0.5s;
   cursor: pointer;
 }
 
-.rotate{
+.rotate {
   transform: rotateY(360deg);
 }
 
@@ -109,31 +109,18 @@
   color: var(--color-light);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 576px) {
   .presentation-main .content {
-    padding: var(--padding-md);
-  }
-}
-
-@media (max-width: 768px) {
-  .presentation-main .content {
-    padding: var(--padding-sm);
+    padding: 0;
   }
 
-  @media (max-width: 576px) {
-    .presentation-main .content {
-      padding: 0;
-    }
+  .presentation-footer li {
+    padding: 0 8px;
+    font-size: 12px;
+  }
 
-    .presentation-footer li {
-      padding: 0 8px;
-      font-size: 12px;
-    }
-
-    .presentation-footer {
-      min-height: 120px;
-      max-height: 124px;
-    }
-
+  .presentation-footer {
+    min-height: 120px;
+    max-height: 124px;
   }
 }

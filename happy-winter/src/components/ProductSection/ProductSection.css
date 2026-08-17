@@ -1,7 +1,7 @@
 .product-section {
   height: 100vh;
   width: 100%;
-  padding: var(--padding-lg);
+ padding: var(--slide-border-padding);
   padding-top: 64px;
   display: flex;
   flex-direction: column;

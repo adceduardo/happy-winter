@@ -86,13 +86,7 @@
 @media (max-width: 768px) {
   .content-information {
     background: #f5fafdad;
-  }
-}
 
-@media (max-width: 576px) {
-  .presentation-section {
-    padding: var(--padding-sm);
-  }
 }
 
 @media (max-width: 576px) {

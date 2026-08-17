@@ -11,9 +11,7 @@
   --color-sand: #e0dad6;
   --color-surface: #f5fafd;
 
-  --padding-lg: 0 100px;
-  --padding-md: 0 50px;
-  --padding-sm: 0 16px;
+  --slide-border-padding: 0 100px;
 }
 
 * {
@@ -23,7 +21,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 h1 {
@@ -35,6 +33,18 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --slide-border-padding: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --slide-border-padding: 0 16px;
+  }
 }
 
 /* Keyframes */
