@@ -1,7 +1,10 @@
 import { FaWhatsapp } from "react-icons/fa";
 import "./PresentationCardMobile.css";
+import { useState } from "react";
 
 export function PresentationCardMobile() {
+  const [rotate, setRotate] = useState(false);
+
   return (
     <div className="content-information-mobile">
       <div className="content-information-body">
@@ -11,7 +14,11 @@ export function PresentationCardMobile() {
         </div>
         <div className="information-container">
           <p> Aqueça seus dias com estilo, conforto e muito carinho</p>
-          <img src="logo.png"></img>
+          <img
+            src="logo.png"
+            onClick={() => setRotate(!rotate)}
+            className={rotate ? "rotate" : ""}
+          ></img>
           <div className="contact-button">
             <FaWhatsapp size={28} />
             <button>Fale conosco</button>
