@@ -1,14 +1,12 @@
 .product-section {
   height: 100vh;
   width: 100%;
-  background: var(--color-sand);
   padding: var(--padding-lg);
   padding-top: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 2px solid var(--color-primary);
-  margin-top: 16px;
+  background: linear-gradient(0deg, var(--color-light), #fff);
 
   .header {
     display: flex;
