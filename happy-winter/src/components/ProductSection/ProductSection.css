@@ -1,12 +1,12 @@
 .product-section {
   height: 100vh;
   width: 100%;
- padding: var(--slide-border-padding);
-  padding-top: 64px;
+  padding: var(--slide-border-padding);
+  padding-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(0deg, var(--color-light), #fff);
+  background: url("/product-background.webp") right center / cover no-repeat;
 
   .header {
     display: flex;
