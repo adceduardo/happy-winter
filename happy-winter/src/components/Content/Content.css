@@ -1,9 +1,10 @@
 .presentation-section {
-  height: calc(100dvh - var(--header-height));
+  height: calc(100vh);
   display: flex;
   align-items: center;
   flex-direction: column;
   background: var(--color-primary);
+  padding-top: var(--header-height);
 
   h1 {
     font-size: clamp(2rem, 3.5vw, 5rem);
@@ -63,7 +64,7 @@
 }
 
 .presentation-footer {
-  min-height: 148px;
+  height: 20%;
   width: 100%;
 }
 

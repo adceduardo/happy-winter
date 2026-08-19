@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  --header-height: 116px;
+  --header-height: 80px;
 
   --color-primary: #194664;
   --color-secondary: #58151c;
@@ -21,7 +21,7 @@
 }
 
 body {
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 
 h1 {
