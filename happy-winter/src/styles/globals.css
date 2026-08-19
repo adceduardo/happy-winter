@@ -4,6 +4,7 @@
 
   --color-primary: #194664;
   --color-secondary: #58151c;
+  --color-tertiary: #A4D0E9;
   --color-secondary-text: #a31621;
   --color-light: #b0d7ff;
   --color-dark: #182825;
@@ -71,12 +72,10 @@ ul {
 
 @keyframes slideMiddle {
   from {
-    opacity: 0;
     transform: translateY(-100%);
   }
 
   to {
-    opacity: 1;
     transform: translateY(0);
   }
 }
