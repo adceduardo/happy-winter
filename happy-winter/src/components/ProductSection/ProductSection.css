@@ -1,5 +1,5 @@
 .product-section {
-  height: calc(100vh - var(--header-height));
+  height: calc(100dvh - var(--header-height));
   width: 100%;
   padding: var(--slide-border-padding);
   padding-top: 24px;

@@ -12,7 +12,6 @@ header {
   background: #fff;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: var(--header-height);
   caret-color: transparent;
 }
 
@@ -56,9 +55,6 @@ header nav li {
 }
 
 @media (max-width: 576px) {
-  :root {
-    --header-height: 88px;
-  }
 
   header nav {
     position: absolute;
