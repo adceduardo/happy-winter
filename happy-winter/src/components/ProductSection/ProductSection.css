@@ -8,41 +8,41 @@
   align-items: center;
   background: linear-gradient(0deg, var(--color-primary), var(--color-tertiary)), url("/product-background.webp") right center / cover no-repeat;
   background-blend-mode: hard-light;
+}
 
-  .header {
+ .product-section .header {
     display: flex;
     flex-direction: column;
   }
 
-  span {
+  .product-section   span {
     width: 100%;
     display: flex;
     align-items: center;
   }
 
-  svg {
+  .product-section svg {
     min-width: 20px;
     margin: 0 8px;
     color: var(--color-secondary);
   }
 
-  hr {
+
+  .product-section hr {
     background: var(--color-dark);
     width: 50%;
     height: 2px;
   }
 
-  h2 {
+  .product-section h2 {
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--color-primary);
     letter-spacing: 2px;
   }
 
-  h3 {
+  .product-section h3 {
     font-size: 1.5rem;
     color: var(--color-secondary);
     font-weight: bold;
   }
-}
-
