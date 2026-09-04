@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <a href="#pt-br">Português</a> • 
   <a href="#en-us">English</a>
 </p>
