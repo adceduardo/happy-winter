@@ -1,12 +1,14 @@
 .product-section {
-  height: calc(100vh - var(--header-height));
+  height: calc(100dvh - var(--header-height));
   width: 100%;
   padding: var(--slide-border-padding);
   padding-top: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(0deg, var(--color-primary), var(--color-tertiary)), url("/product-background.webp") right center / cover no-repeat;
+  background:
+    linear-gradient(0deg, var(--color-primary), var(--color-tertiary)),
+    url("/product-background.webp") right center / cover no-repeat;
   background-blend-mode: hard-light;
 
   .header {
@@ -45,4 +47,3 @@
     font-weight: bold;
   }
 }
-

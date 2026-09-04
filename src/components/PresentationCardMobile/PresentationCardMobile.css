@@ -57,3 +57,9 @@
   height: 150px;
   width: 150px;
 }
+
+@media(max-width: 425px){
+  .information-container{
+    gap: 4px;
+  }
+}
