@@ -6,7 +6,7 @@
 ---
 
 <a id="pt-br"></a>
-# ❄️ Happy Winter — Catálogo de Produtos Personalizados
+# ❄️ Happy Winter
 
 > Uma plataforma web moderna e interativa desenvolvida para apresentação e personalização de catálogo de produtos.
 
@@ -37,7 +37,7 @@ O **Happy Winter** é uma aplicação focada na experiência do usuário para na
 
 ---
 <a id="en-us"></a>
-# ❄️ Happy Winter — Personalized Product Catalog
+# ❄️ Happy Winter
 
 > A modern and interactive web platform designed for product catalog presentation and customization.
 
